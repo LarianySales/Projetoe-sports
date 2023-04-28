@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #AE87D6;
+}
+nav{
+    background: #9b6cca;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+
+    flex-direction:row-reverse;
+}
+li a:hover{
+    background-color:rgba(183, 166, 247, 0.692) ; 
+ }
+ li a{
+     color: #9998ffc5;
+     text-decoration: none;
+     padding: 1.5rem;
+     display: inline-block;
+     display: flex;
+     align-items: center;
+     gap: .6rem;
+ }
+.nav-img{
+    padding: 5px;
+    padding-right: 17px;
+}
+.ranking{
+    padding-right: 9px;
+}
